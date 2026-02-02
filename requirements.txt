@@ -1,5 +1,13 @@
 pandas==2.1.4
-yfinance==1.1.0
 sqlalchemy==2.0.23
 psycopg2-binary==2.9.9
+yfinance==1.1.0
 python-dotenv==1.0.0
+# Core dependencies
+pandas==2.1.4
+
+# Airflow (already in Docker image, but for local dev)
+# apache-airflow==2.8.0
+
+# Monitoring & Observability (optional)
+# sentry-sdk==1.39.2
